@@ -1,0 +1,36 @@
+/* simple selector /element selector/tag selector*/
+p{
+ color: aqua;    
+}
+/* class selector */
+.classselector{
+    color:green;
+}
+/* Id selector */
+#idselector{
+    color :red;
+}
+/* Pseudo class selector */
+.Pseudo-classselector:hover{
+    color: red;
+    background-color:black;
+    
+}
+/* Multiple class selector */
+h1,h3,h2{
+    color:orange;
+}
+/* Universal selector is used to style the Whole page  */
+/*
+*{
+ color:brown;
+}
+ */
+ /* Nested selector */
+ div h6 {
+    background-color: yellow;
+  }
+  /* Attribute selector */
+  a[target] {
+    background-color: yellow;
+  }
