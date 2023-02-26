@@ -26,11 +26,12 @@ h1,h3,h2{
  color:brown;
 }
  */
+ /* Attribute selector */
+ a[target] {
+    background-color: yellow;
+  }
  /* Nested selector */
  div h6 {
     background-color: yellow;
   }
-  /* Attribute selector */
-  a[target] {
-    background-color: yellow;
-  }
+  
