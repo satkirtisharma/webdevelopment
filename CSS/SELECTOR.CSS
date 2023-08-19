@@ -10,7 +10,7 @@ p{
 #idselector{
     color :rgb(212, 33, 51);
 }
-/* Pseudo class selector */
+/* Pseudo class selector  */
 .Pseudo-classselector:hover{
     color: red;
     background-color:black;
