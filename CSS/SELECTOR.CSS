@@ -8,7 +8,7 @@ p{
 }
 /* Id selector */
 #idselector{
-    color :red;
+    color :rgb(212, 33, 51);
 }
 /* Pseudo class selector */
 .Pseudo-classselector:hover{
@@ -28,10 +28,10 @@ h1,h3,h2{
  */
  /* Attribute selector */
  a[target] {
-    background-color: yellow;
+    color: yellow;
   }
  /* Nested selector */
  div h6 {
-    background-color: yellow;
+    color: pink;
   }
   
