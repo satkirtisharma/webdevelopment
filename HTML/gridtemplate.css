@@ -1,0 +1,28 @@
+.container{
+    background-color: brown;
+    height: 700px;
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-columns: 500px; 
+    grid-template-rows:30px 150px 400px 30px; */
+    /* grid-template-areas: "hd" "area" "side" "foot"; */
+    /* grid-template-columns: 200px,400px;
+    grid-template-rows: 30px 500px 30px;
+    grid-template-areas: "hd hd" "area side" "foot foot"; */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas: "hd hd hd hd hd hd hd hd" "area side side side side side side side" "foot foot foot foot foot foot foot foot ";
+}
+.box{
+    border: 1px solid black;
+    background-color: blue;
+}
+#box1{
+    grid-area: hd;
+}#box2{
+    grid-area: area;
+}#box3{
+    grid-area: side;
+}#box4{
+    grid-area: foot;
+}
