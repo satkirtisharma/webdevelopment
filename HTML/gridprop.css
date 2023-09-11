@@ -1,0 +1,19 @@
+
+.container{
+    height: 700px;
+    width: 600px;
+    background: tan;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    /* justify-content: end; */
+    /* align-content:end; */
+    /* justify-items: end; */
+    align-items: end;
+    justify-content: ;
+}
+.box{
+    background: blue;
+
+}

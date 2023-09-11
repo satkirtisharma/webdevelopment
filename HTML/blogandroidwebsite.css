@@ -1,0 +1,40 @@
+.container{
+    border: 1px solid black ;
+    background: yellow;
+    height: 700px;
+    display: grid;
+    grid-template-columns:100px 400px ;
+    grid-template-rows: 30px 1fr 30px;
+    grid-gap: 4px;
+    grid-template-areas: "hd hd""side main" "ft ft";
+    width: 504px;
+}
+.box{
+    background: blue;
+     border: 4px solid black;
+}
+#box1{
+    grid-area: hd;
+}
+#box2{
+    grid-area: side;
+}
+#box3{
+    grid-area: main;
+}
+#box4{
+    grid-area: ft;
+}
+@media(max-width:500px) {
+    .container{
+        border: 1px solid black ;
+        background: yellow;
+        height: 700px;
+        display: grid;
+        grid-template-columns:500px;
+        grid-template-rows: 30px 1fr 1fr 30px;
+        grid-gap: 4px;
+        grid-template-areas: "hd""side ""main" "ft";
+        width: 504px;
+    }
+}
