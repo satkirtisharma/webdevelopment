@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    height: 215PX;
+    background-color: yellow;
+    border: 1PX SOLID BLACK;
+}
+.box{
+    height:212px;
+    width: 212px;
+    border :1px solid red;
+    background: aqua;
+    animation-name: sk;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+/* @keyframes sk {
+    from{
+        width: 212px;
+    }    
+    to{
+        width : 900px;
+    }
+} */
+@keyframes sk {
+    0%{
+        width: 212px;
+        background: orange;
+    }
+    30%{
+        width: 35%;
+        background: white;
+    }
+    65%{
+        width: 70%;background: green;
+    }
+    100%{
+        width: 100%;
+    }
+}
